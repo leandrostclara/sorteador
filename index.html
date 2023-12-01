@@ -7,7 +7,6 @@
     <title>Sorteador</title>
 
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="./assets/scripts/script.js" defer></script>
 
 </head>
 
@@ -21,17 +20,15 @@
 
         <h2 class="subtitle">Sortear um Número</h2>
         
+        <div class="numero-sorteado-container">
+            <p class="numero-sorteado"></p>
+        </div>
+
         <div class="sorteador-info">
+                
+            <input type="number" placeholder="Numero inicial" class="input-number" id="numero-inicial">
 
-            <label class="label-number">
-                Entre
-                <input type="number" placeholder="Numero inicial" class="input-number">
-            </label>
-
-            <label class="label-number">
-                e
-                <input type="number" placeholder="Numero limite" class="input-number">
-            </label>
+            <input type="number" placeholder="Numero limite" class="input-number" id="numero-limite">
 
         </div>
 
@@ -40,5 +37,7 @@
     </main>
 
 </body>
+
+<script src="./assets/scripts/script.js"></script>
 
 </html>
